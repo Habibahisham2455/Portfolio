@@ -290,9 +290,9 @@
         /* About Section */
         .about-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 6rem;
-            align-items: start;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 4rem;
+            align-items: center;
         }
 
         .about-text {
@@ -318,15 +318,17 @@
 
         .profile-photo {
             width: 100%;
-            max-width: 500px;
+            max-width: 400px;
             height: auto;
+            border-radius: 10px;
             border: 3px solid var(--accent-gold);
             box-shadow: 0 20px 60px rgba(212, 175, 55, 0.3);
             transition: all 0.4s ease;
+            object-fit: cover;
         }
 
         .profile-photo:hover {
-            transform: scale(1.05);
+            transform: scale(1.02);
             box-shadow: 0 30px 80px rgba(212, 175, 55, 0.5);
         }
 
@@ -699,7 +701,7 @@
                 <p>I specialize in creating engaging content that tells stories, builds brands, and connects with audiences on an emotional level.</p>
             </div>
             <div class="about-image-section">
-                <img src="profile.jpg">
+                <img src="C:\Users\ST\Downloads\Habiba Portofolio img.jpeg" alt="Habiba Mohamed" class="profile-photo">
             </div>
         </div>
     </section>
@@ -788,7 +790,7 @@
             <div class="contact-info">
                 <div class="contact-item">
                     <div class="contact-label">Email</div>
-                    <div class="contact-value">habebahisham111@gmail.com</div>
+                    <div class="contact-value"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="89e1e8ebecebe8e1e0fae1e8e4b8b8b8c9eee4e8e0e5a7eae6e4">[email&#160;protected]</a></div>
                 </div>
                 <div class="contact-item">
                     <div class="contact-label">Phone</div>
@@ -806,9 +808,4 @@
         </div>
     </section>
 
-    <script>
-        // Smooth scroll
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = docu
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script
